@@ -13,16 +13,16 @@
   </thead>
   <tbody>
     <% @restaurants.each do |restaurant| %>
-    <tr>
-      <td><%= restaurant.name %></td>
-      <td><%= restaurant.category %></td>
-      <td><%= restaurant.average_rating %></td>
-      <td><%= link_to 'Show', restaurant %></td>
-      <td><%= link_to 'Edit', edit_restaurant_path(restaurant) %></td>
+      <tr>
+        <td><%= restaurant.name %></td>
+        <td><%= restaurant.category %></td>
+        <td><%= restaurant.average_rating %></td>
+        <td><%= link_to 'Show', restaurant %></td>
+        <td><%= link_to 'Edit', edit_restaurant_path(restaurant) %></td>
 
-    </tr>
-  <% end %>
-</tbody>
+      </tr>
+    <% end %>
+  </tbody>
 
 </table>
 
